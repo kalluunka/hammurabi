@@ -1,0 +1,24 @@
+body {
+	background: #966F33;
+}
+.alterBildschirm {
+	width: 680px; height: 400px;
+	background: #222222;
+	padding: 25px;
+	border-radius: 15px;
+	margin: 30px auto;
+	box-shadow: inset -1px 2px 10px 5px grey;
+	
+	font-size: 20px;
+	font-weight: bold;
+	font-famitly: monospace, courier, terminal;
+	color: #13DF13;
+	text-shadow: 2px 2px 2px #13CD13;
+}
+.button {
+  display: inline-block; /* Stellt sicher, dass die Divs in einer Zeile bleiben */
+  margin: 5px; /* Fügt etwas Abstand zwischen den Divs hinzu */
+  cursor: pointer; /* Zeigt den Zeiger-Cursor beim Überfahren an */
+  padding: 5px 10px; /* Fügt Innenabstand hinzu, um die Klickfläche zu vergrößern */
+  border: 1px solid #ccc; /* Fügt einen Rahmen hinzu */
+}
